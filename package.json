@@ -1,0 +1,22 @@
+{
+  "name": "padstart",
+  "version": "1.0.0",
+  "description": "string.prototype.padStart方法的兼容",
+  "main": "padStart.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencode/padStart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bencode/padStart/issues"
+  },
+  "homepage": "https://github.com/bencode/padStart#readme"
+}
