@@ -3,6 +3,7 @@ if (!String.prototype.padStart) {
         const _this=this;
         let newString;
         let newArray=_this.split('');
+        let oldString=newArray.join('');
         const oldLength=_this.length;
         if ( len>oldLength ) {
             const childStringLen=str.length;
@@ -17,7 +18,7 @@ if (!String.prototype.padStart) {
             }
             newString=newArray.join('');              
         } else if( len<=oldLength||!str ) {
-            newString=str;
+            newString=oldString;
         }
         return newString;
     };
