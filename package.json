@@ -4,7 +4,8 @@
   "description": "string.prototype.padStart方法的兼容",
   "main": "padStart.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "cov": "jest --coverage"
   },
   "devDependencies": {
     "jest": "^22.4.3"
